@@ -99,7 +99,7 @@ const Footer = () => {
                 </p>
 
                 <p>
-                    Created by <span className='text-[#cff]'>Syed Hassan</span>
+                    Created by: <span className='text-[#cff]'>Syed Hassan</span>
                 </p>
 
                 <ul className="flex gap-4 justify-center mt-4">
