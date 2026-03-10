@@ -90,8 +90,18 @@ const Footer = () => {
             </div>
 
             <div className='flex flex-col p-5 justify-center items-center'>
-                <p className='text-center'>Copyright © 2022 HexaShop Co., Ltd. All Rights Reserved.</p>
-                <p>Design: <a className='text-[#cff]' href="">TemplateMo</a></p>
+                <p className='text-center'>
+                    Copyright © 2022 HexaShop Co., Ltd. All Rights Reserved.
+                </p>
+
+                <p>
+                    Design: <a className='text-[#cff]' href="">TemplateMo</a>
+                </p>
+
+                <p className='text-sm text-gray-300'>
+                    Created by Syed Hassan
+                </p>
+
                 <ul className="flex gap-4 justify-center mt-4">
                     {/* Facebook Icon */}
                     <li className='text-[#cff] hover:text-[#c66] transition duration-400'>
@@ -99,19 +109,22 @@ const Footer = () => {
                             <FaFacebook size={24} />
                         </Link>
                     </li>
+
                     {/* Twitter Icon */}
                     <li className='text-[#cff] hover:text-[#c66] transition duration-400'>
                         <Link onClick={scrolltop} to='#'>
                             <FaTwitter size={24} />
                         </Link>
                     </li>
+
                     {/* LinkedIn Icon */}
                     <li className='text-[#cff] hover:text-[#c66] transition duration-400'>
                         <Link onClick={scrolltop} to='#'>
                             <FaLinkedin size={24} />
                         </Link>
                     </li>
-                    {/* YouTube Icon */}
+
+                    {/* Behance Icon */}
                     <li className='text-[#cff] hover:text-[#c66] transition duration-400'>
                         <Link onClick={scrolltop} to='#'>
                             <FaBehance size={24} />
