@@ -98,8 +98,8 @@ const Footer = () => {
                     Design: <a className='text-[#cff]' href="">TemplateMo</a>
                 </p>
 
-                <p className='text-sm text-gray-300'>
-                    Created by Syed Hassan
+                <p>
+                    Created by <span className='text-[#cff]'>Syed Hassan</span>
                 </p>
 
                 <ul className="flex gap-4 justify-center mt-4">
